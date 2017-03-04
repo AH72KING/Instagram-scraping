@@ -8,7 +8,7 @@ function scrape_insta_hash($tag) {
 }
 $tag = 'pakistan'; // tag for which ou want images 
 $results_array = scrape_insta_hash($tag);
-$limit = 7 // provide the limit thats important because one page only give some images then load more have to be clicked
+$limit = 7; // provide the limit thats important because one page only give some images then load more have to be clicked
 $image_array= array(); // array to store images.
 	for ($i=0; $i < $limit; $i++) { 
 		$latest_array = $results_array['entry_data']['TagPage'][0]['tag']['media']['nodes'][$i];
