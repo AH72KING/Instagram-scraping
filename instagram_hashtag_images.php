@@ -19,7 +19,7 @@ $image_array= array(); // array to store images.
 	 	$image_data  = '<img src="'.$latest_array['thumbnail_src'].'">'; // thumbnail and same sizes 
 	 	//$image_data  = '<img src="'.$latest_array['display_src'].'">'; actual image and different sizes 
 		array_push($image_array, $image_data);
-	
+	}
 	foreach ($image_array as $image) {
 		echo $image;// this will echo the images wrap it in div or ul li what ever html structure 
 	}
