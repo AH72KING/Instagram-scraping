@@ -7,3 +7,6 @@ it is used to get images from instagram on basis of hash tag
 
 ## 2. instagram_user_images.php
 it is used to get images from instagram on basis of username
+
+
+Note: This Code still works after 2 years, first try this on your local server
